@@ -1,0 +1,4 @@
+namespace: observability-demo
+datadog:
+  apiKey: "<YOUR_DATADOG_API_KEY>"
+  site: "datadoghq.com"
