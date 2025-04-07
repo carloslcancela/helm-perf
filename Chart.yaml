@@ -1,0 +1,4 @@
+apiVersion: v2
+name: observability-demo
+description: Helm chart for webserver and client with Datadog sidecar
+version: 0.1.0
