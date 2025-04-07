@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: client
-      image: busybox
+      image: jordi/ab
       command: ['sh', '-c', 'while true; do wget -qO- http://webserver.{{ .Values.namespace }}.svc.cluster.local; sleep 10; done']
     - name: datadog-agent
       image: gcr.io/datadoghq/agent:latest
